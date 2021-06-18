@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head><title>휴일 체크 프로그램</title></head>
+<body>
+    <script>
+        var holiday;
+        var day=prompt("월화수목금토일 중에서 입력하세요.","수");
+        if(day=="월"||day=="화"||day=="수"||day=="목"||day=="금")
+        {day="출근";}
+        else if(day=="토"||day=="일"){
+            holiday="휴일";
+        }
+        else{
+            holiday="다시 입력하세요.";
+        }
+        document.write(holiday);
+    </script>
+</body>

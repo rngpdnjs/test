@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>로또 프로그램</title>
+    </head>
+
+    <body>
+        <script>
+            function lotto(){
+                var num=new Array();
+                for(i=0;i<6;i++){                  
+                    num[i]=Math.floor(Math.random()*45,1)+1;
+                    if(num[i])
+                    document.write(num[i]+"<br>");
+                   }
+
+            }
+        </script>
+        <script>
+            
+            lotto();
+   
+            
+        </script>
+    </body>
+</html>
